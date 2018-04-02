@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /*border: 1px solid red;*/
+}
+
+.buttons {
+  width: 194px;
+  height: 45px;
+  background-color: #b88b58;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+/* === Grid === */
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* === HEADER === */
+header {
+  background-image: url("../images/slider1.png");
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+  padding: 0 245px;
+}
+
+.logo {
+  float: left;
+  height: 100px;
+  margin: 0;
+  padding-top: 25px;
+}
+
+nav:before,
+nav:after {
+  content: "";
+  display: table;
+}
+
+nav:after {
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 100px;
+  line-height: 100px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 7px;
+}
+
+nav a:hover {
+  border-bottom: 5px solid #b88b58;
+}
+
+.jumbotron {
+  display: block;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.jumbotron h1 {
+  height: 121px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 69px;
+  text-transform: uppercase;
+}
+
+.jumbotron h3 {
+  height: 18px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.fa-phone-volume {
+  text-align: center;
+  font-size: 40px;
+  line-height: 65px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #b88b58;
+  color: #ffffff;
+  float: right;
+  margin-right: 100px;
+  margin-top: 160px;
+}
+
+/* === ABOUT US === */
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+}
+
+.title {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #aeaeae;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+
+.about-us p {
+  width: 634px;
+  height: 139px;
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: left;
+  margin-right: 0;
+}
+
+.about-us .about-us-btn {
+  float: left;
+  margin-top: 20px;
+}
+
+.video-img img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */
