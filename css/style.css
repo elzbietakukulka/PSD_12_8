@@ -239,4 +239,41 @@ nav a:hover {
   width: 100%;
   height: 100%;
 }
+
+/* === SERVICES === */
+.main-container {
+  width: 100%;
+  background-color: #000000;
+  height: 416px;
+  text-align: center;
+}
+
+.white-title {
+  color: #ffffff;
+}
+
+.description {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.description-2 {
+  font-weight: 300;
+  line-height: 21px;
+  color: #7e7e7e;
+}
+
+.services-row {
+  margin-top: 50px;
+  border-right: 2px solid #bebebe;
+  border-left: 2px solid #bebebe;
+}
+
+.col-with-border {
+  border-right: 2px solid #bebebe;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,6 @@
 {
   "name": "learning-git",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npm-run-all test:*",
@@ -20,7 +19,7 @@
     "watch:sassprefixer": "onchange sass/style.scss -- npm-run-all watch-dev:*",
     "watch-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch-dev:autoprefixer": "autoprefixer-cli css/style.css",
-    "watch:browser-sync": "node_modules/.bin/browser-sync start --server --files css/*.css *.html"
+    "watch:browser-sync": "browser-sync start --server --files css/*.css *.html"
   },
   "repository": {
     "type": "git",
@@ -47,5 +46,6 @@
     "mkdir-p": "0.0.7",
     "mkdirp": "^0.5.1",
     "rimraf": "^2.6.2"
-  }
+  },
+  "description": ""
 }
