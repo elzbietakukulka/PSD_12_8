@@ -369,4 +369,53 @@ nav a:hover {
 .col-btn {
   margin: 30px 0 60px 0;
 }
+
+/* === OUR TEAM === */
+.team-section {
+  background-image: url("../images/bg-image.png");
+  height: 700px;
+}
+
+.team {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  width: 32%;
+}
+
+.team1 {
+  margin-right: 2%;
+}
+
+.team img {
+  margin: 40px 0;
+}
+
+.team h3 {
+  font-weight: bold;
+}
+
+.team .icons {
+  margin: 30px 0 40px 0;
+}
+
+.icons .fab, .icons .fas {
+  color: #ffffff;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: #aeaeae;
+  font-size: 14px;
+  line-height: 32px;
+  height: 33px;
+  width: 33px;
+  text-align: center;
+  pointer: cursor;
+}
+
+.icons .fab:hover, .icons .fas:hover {
+  background-color: #b88b58;
+}
+
+.paginator {
+  margin-top: 50px;
+}
 /*# sourceMappingURL=style.css.map */

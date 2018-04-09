@@ -359,3 +359,52 @@ nav {
 }
 
 
+/* === OUR TEAM === */
+.team-section {
+	background-image: url('../images/bg-image.png');
+	height: 700px;
+}
+
+.team {
+	background-color: $white-color;
+	font-family: $font-Montserrat;
+	width: 32%;
+}
+
+.team1 {
+	margin-right: 2%;
+}
+
+.team {
+	img {
+		margin: 40px 0;
+	}
+	h3 {
+		font-weight: bold;
+	}
+	.icons {
+		margin: 30px 0 40px 0;
+	}
+}
+
+.icons {
+	.fab, .fas {
+		color: $white-color;
+		border: 1px solid;
+		border-radius: 50%;
+		background-color: $grey-color;
+		font-size: 14px;
+		line-height: 32px;
+		height: 33px;
+		width: 33px;
+		text-align: center;
+		pointer: cursor;
+		&:hover {
+			background-color: $yellow-color;
+		}
+	}
+}
+
+.paginator {
+	margin-top: 50px;
+}
