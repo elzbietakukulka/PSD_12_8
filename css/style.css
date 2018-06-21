@@ -560,4 +560,27 @@ nav a:hover {
 .premium-section {
   margin-top: 30px;
 }
+
+/* === SOME FACTS === */
+.some-facts-section {
+  height: 400px;
+}
+
+.facts-section {
+  margin-top: 40px;
+}
+
+.facts-section p {
+  color: #7e7e7e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.facts-section .col-12 {
+  height: 100px;
+}
 /*# sourceMappingURL=style.css.map */
