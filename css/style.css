@@ -590,6 +590,7 @@ nav a:hover {
   line-height: 76px;
   color: #7e7e7e;
   font-family: "Montserrat", sans-serif;
+  background-color: #fefefe;
 }
 
 .tell-about-us img {
@@ -658,5 +659,43 @@ nav a:hover {
   background-color: #ffffff;
   border: 1px solid #b71c29;
   color: #b71c29;
+}
+
+/* === CONTACT US === */
+.contact-us {
+  background-color: #ededed;
+}
+
+.form {
+  width: 500px;
+  margin: 40px auto;
+}
+
+.form input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #aeaeae;
+  background-color: #ededed;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.form input:active {
+  border: 1px solid #aeaeae;
+}
+
+.form .name-col {
+  width: 48%;
+  margin-right: 2%;
+}
+
+.form .email-col {
+  width: 48%;
+  margin-left: 2%;
+}
+
+.form .message {
+  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */

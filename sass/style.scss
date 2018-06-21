@@ -577,6 +577,7 @@ nav {
 	line-height: 76px;
 	color: #7e7e7e;
 	font-family: $font-Montserrat;
+	background-color: #fefefe;
 }
 
 .tell-about-us {
@@ -584,6 +585,7 @@ nav {
 		margin: 0 auto;
 		padding-right: 10px;
 	}
+
 	.fab {
 		border: 1px solid;
 		border-radius: 50%;
@@ -641,4 +643,41 @@ nav {
 			color: #b71c29;
 		}
 	}
+}
+
+/* === CONTACT US === */
+.contact-us {
+	background-color: #ededed;
+}
+.form {
+	width: 500px;
+	margin: 40px auto;
+	
+}
+.form {
+	input {
+		width: 100%;
+		height: 50px;
+		border: none;
+		border-bottom: 1px solid $grey-color;
+		background-color: #ededed;
+		text-transform: uppercase;
+		text-align: left;
+		&:active {
+			border: 1px solid $grey-color;
+		}
+	}
+	.name-col {
+		width: 48%;
+		margin-right: 2%;
+	}
+	.email-col {
+		width: 48%;
+		margin-left: 2%;
+	}
+
+	.message {
+		height: 100px;
+	}
+
 }
