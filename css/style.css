@@ -583,4 +583,80 @@ nav a:hover {
 .facts-section .col-12 {
   height: 100px;
 }
+
+/* === TELL ABOUT US ===*/
+.tell-about-us {
+  height: 76px;
+  line-height: 76px;
+  color: #7e7e7e;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tell-about-us img {
+  margin: 0 auto;
+  padding-right: 10px;
+}
+
+.tell-about-us .fab {
+  border: 1px solid;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 32px;
+  height: 33px;
+  width: 33px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+  margin: 0 5px;
+}
+
+.tell-about-us .fa-twitter {
+  background-color: #34c5f0;
+}
+
+.tell-about-us .fa-twitter:hover {
+  background-color: #ffffff;
+  border: 1px solid #34c5f0;
+  color: #34c5f0;
+}
+
+.tell-about-us .fa-linkedin-in {
+  background-color: #127cb4;
+}
+
+.tell-about-us .fa-linkedin-in:hover {
+  background-color: #ffffff;
+  border: 1px solid #127cb4;
+  color: #127cb4;
+}
+
+.tell-about-us .fa-facebook-f {
+  background-color: #336297;
+}
+
+.tell-about-us .fa-facebook-f:hover {
+  background-color: #ffffff;
+  border: 1px solid #336297;
+  color: #336297;
+}
+
+.tell-about-us .fa-google-plus-g {
+  background-color: #e74237;
+}
+
+.tell-about-us .fa-google-plus-g:hover {
+  background-color: #ffffff;
+  border: 1px solid #e74237;
+  color: #e74237;
+}
+
+.tell-about-us .fa-pinterest-p {
+  background-color: #b71c29;
+}
+
+.tell-about-us .fa-pinterest-p:hover {
+  background-color: #ffffff;
+  border: 1px solid #b71c29;
+  color: #b71c29;
+}
 /*# sourceMappingURL=style.css.map */

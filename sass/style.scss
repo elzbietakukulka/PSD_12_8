@@ -570,3 +570,75 @@ nav {
 		height: 100px;
 	}
 }
+
+/* === TELL ABOUT US ===*/
+.tell-about-us {
+	height: 76px;
+	line-height: 76px;
+	color: #7e7e7e;
+	font-family: $font-Montserrat;
+}
+
+.tell-about-us {
+	img {
+		margin: 0 auto;
+		padding-right: 10px;
+	}
+	.fab {
+		border: 1px solid;
+		border-radius: 50%;
+		font-size: 14px;
+		line-height: 32px;
+		height: 33px;
+		width: 33px;
+		text-align: center;
+		cursor: pointer;
+		color: $white-color;
+		margin: 0 5px;
+	}
+
+	.fa-twitter {
+		background-color: #34c5f0;
+		&:hover {
+			background-color: $white-color;
+			border: 1px solid #34c5f0;
+			color: #34c5f0;
+		}
+	}
+
+	.fa-linkedin-in {
+		background-color: #127cb4;
+		&:hover {
+			background-color: $white-color;
+			border: 1px solid #127cb4;
+			color: #127cb4;
+		}
+	}
+
+	.fa-facebook-f {
+		background-color: #336297;
+		&:hover {
+			background-color: $white-color;
+			border: 1px solid #336297;
+			color: #336297;
+		}
+	}
+
+	.fa-google-plus-g {
+		background-color: #e74237;
+		&:hover {
+			background-color: $white-color;
+			border: 1px solid #e74237;
+			color: #e74237;
+		}
+	}
+
+	.fa-pinterest-p {
+		background-color: #b71c29;
+		&:hover {
+			background-color: $white-color;
+			border: 1px solid #b71c29;
+			color: #b71c29;
+		}
+	}
+}
