@@ -323,6 +323,7 @@ nav {
 	height: 100%;	
 	}
 }
+
 .gallery {
 	.layer {
 		position: absolute;
@@ -509,4 +510,39 @@ nav {
 }
 .price-col-margin {
 	margin-right: 2%;
+}
+
+/* === PREMIUM === */
+.premium {
+	background-color: $white-color;
+	height: 757px;
+}
+
+.premium-features {
+	h4 {
+		font-family: $font-Montserrat;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: left;
+		margin-top: 4px;
+		margin-bottom: 5px;
+	}
+	p {
+		font-weight: 300;
+		line-height: 25px;
+		color: #7e7e7e;
+		text-align: left;
+		font-family: $font-Montserrat;
+		margin: 0;
+		padding-bottom: 10px;
+	}
+
+}
+
+.premium-icon {
+	text-align: left;
+}
+
+.premium-section {
+	margin-top: 30px;
 }
