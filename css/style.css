@@ -174,7 +174,7 @@ nav a:hover {
   text-transform: uppercase;
 }
 
-.jumbotron h3 {
+.jumbotron h2 {
   height: 18px;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
@@ -482,7 +482,7 @@ nav a:hover {
   margin: 40px 0 60px 0;
 }
 
-.price-col h4 {
+.price-col h1 {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -497,7 +497,7 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-.price-col h5 {
+.price-col h3 {
   font-size: 10px;
   font-weight: 400;
   line-height: 25px;
