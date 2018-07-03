@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
 body {
   margin: 0 auto;
   padding: 0;
@@ -32,6 +32,41 @@ body {
   color: #b88b58;
   border: 1px solid #b88b58;
   transition: ease-in-out .4s;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+}
+
+.main-container {
+  width: 100%;
+  background-color: #000000;
+  height: 416px;
+  text-align: center;
+}
+
+.title {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #aeaeae;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
 }
 
 /* === Grid === */
@@ -199,37 +234,8 @@ nav a:hover {
 }
 
 /* === ABOUT US === */
-.container {
-  max-width: 1100px;
-  width: 100%;
-  margin: auto;
-}
-
-.title {
-  color: #000000;
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 30px;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.subtitle {
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 14px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #aeaeae;
-  font-family: "Montserrat", sans-serif;
-  margin-top: 10px;
-}
-
 .about-us p {
   width: 634px;
-  height: 139px;
   color: #242424;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -250,13 +256,6 @@ nav a:hover {
 }
 
 /* === SERVICES === */
-.main-container {
-  width: 100%;
-  background-color: #000000;
-  height: 416px;
-  text-align: center;
-}
-
 .white-title {
   color: #ffffff;
 }
@@ -265,13 +264,15 @@ nav a:hover {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 18px;
   text-transform: uppercase;
 }
 
 .description-2 {
-  font-weight: 300;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
   line-height: 21px;
   color: #7e7e7e;
 }
@@ -387,7 +388,6 @@ nav a:hover {
 
 .team {
   background-color: #ffffff;
-  font-family: "Montserrat", sans-serif;
   width: 32%;
 }
 
@@ -400,7 +400,15 @@ nav a:hover {
 }
 
 .team h3 {
-  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.team h4 {
+  font-weight: 300;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .team .icons {
@@ -445,10 +453,10 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-.happy-clients p {
+.happy-clients h4 {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   margin-top: 10px;
 }
 
@@ -482,14 +490,14 @@ nav a:hover {
   margin: 40px 0 60px 0;
 }
 
-.price-col h1 {
+.price-col h3 {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   text-transform: uppercase;
 }
 
-.price-col h2 {
+.price-col h4 {
   font-size: 30px;
   font-weight: 700;
   line-height: 21px;
@@ -497,7 +505,7 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-.price-col h3 {
+.price-col h5 {
   font-size: 10px;
   font-weight: 400;
   line-height: 25px;
@@ -536,10 +544,10 @@ nav a:hover {
   height: 757px;
 }
 
-.premium-features h4 {
+.premium-features h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 21px;
+  font-weight: 700;
   text-align: left;
   margin-top: 4px;
   margin-bottom: 5px;
@@ -570,11 +578,35 @@ nav a:hover {
 
 .facts-section {
   margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.facts-section h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-hight: 28px;
+  color: #b88b58;
+  margin: 0;
+}
+
+.facts-section h4 {
+  color: #7e7e7e;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 0;
+}
+
+.facts-section h5 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .facts-section p {
   color: #7e7e7e;
-  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 300;
   line-height: 21px;
@@ -687,6 +719,7 @@ nav a:hover {
   background-color: #ededed;
   text-transform: uppercase;
   text-align: left;
+  outline: none;
 }
 
 .form .name-col {
@@ -777,7 +810,7 @@ nav a:hover {
   padding-right: 15px;
 }
 
-.footer-main .fab {
+.footer-main .fab, .footer-main .fas {
   border: none;
   border-radius: 50%;
   font-size: 14px;
@@ -791,7 +824,7 @@ nav a:hover {
   margin: 0 5px;
 }
 
-.footer-main .fab:hover {
+.footer-main .fab:hover, .footer-main .fas:hover {
   background-color: #b88b58;
   transition: ease-in-out .4s;
 }
@@ -824,6 +857,7 @@ nav a:hover {
   text-transform: uppercase;
   text-align: center;
   padding-top: 30px;
+  outline: none;
 }
 
 .subscribe .sub-btn {
@@ -889,6 +923,7 @@ nav a:hover {
   }
   .navbar {
     height: 650px;
+    padding: 0;
   }
   .logo {
     display: block;
@@ -904,6 +939,7 @@ nav a:hover {
   nav ul {
     margin: 0;
     padding: 0;
+    float: none;
   }
   nav li {
     display: block;
@@ -927,11 +963,19 @@ nav a:hover {
     margin-top: 0;
   }
   .jumbotron h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .jumbotron h2 {
+    font-size: 20px;
   }
   .fa-phone-volume {
     margin-right: 100px;
     margin-top: -20px;
+  }
+  /* === ABOUT US === */
+  .about-us p {
+    width: 100%;
+    padding: 0 20px;
   }
   /* === SERVICES === */
   .main-container {
@@ -947,6 +991,19 @@ nav a:hover {
   .col-with-border {
     border-right: none;
   }
+  /* === OUR PROJECTS === */
+  .list {
+    width: 100%;
+    border: none;
+  }
+  .list li {
+    display: block;
+    border-bottom: 2px solid #b88b58;
+    border-right: none;
+  }
+  .gallery .layer {
+    display: none;
+  }
   /* === PRICE === */
   .price-col {
     margin: 10px 0;
@@ -954,6 +1011,9 @@ nav a:hover {
   /* === PREMIUM === */
   .premium {
     background-color: #ffffff;
+  }
+  .premium-section .box-img {
+    width: 100%;
   }
   /* === TELL ABOUT US ===*/
   .tell-about-us {
@@ -966,6 +1026,10 @@ nav a:hover {
   .contact-us {
     background-color: #ededed;
     height: 100%;
+  }
+  .form {
+    padding-left: 10px;
+    width: 100%;
   }
   .form .name-col {
     width: 100%;
@@ -998,15 +1062,19 @@ nav a:hover {
   }
   .footer-main p {
     font-size: 15px;
-    text-align: left;
+    text-align: center;
     padding: 10px;
   }
   .footer-main .copyrights {
     padding-top: 0;
-    padding-left: 300px;
+    padding-left: 0;
   }
   .footer-text {
     background-color: black;
+  }
+  .footer-text p {
+    padding: 20px;
+    text-align: justify;
   }
 }
 
@@ -1115,6 +1183,9 @@ nav a:hover {
   .col-smaller1 {
     margin-right: 0;
   }
+  .gallery .layer {
+    display: none;
+  }
   /* === OUR TEAM === */
   .team1 {
     margin-right: 0;
@@ -1160,16 +1231,16 @@ nav a:hover {
     margin-top: 15px;
   }
   .footer-text {
-    padding-right: 0;
+    padding: 20px;
   }
   .footer-main p {
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     padding: 10px;
   }
   .footer-main .copyrights {
     padding-top: 0;
-    padding-left: 450px;
+    padding-left: 0;
   }
   .subscribe {
     margin-bottom: 20px;

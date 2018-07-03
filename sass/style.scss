@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
 
 body {
   margin: 0 auto;
@@ -41,6 +41,41 @@ $grey-color: #aeaeae;
 	}
 }
 
+.container {
+	max-width: 1100px;
+	width: 100%;
+	margin: auto;
+}
+
+.main-container {
+	width: 100%;
+	background-color: $black-color;
+	height: 416px;
+	text-align: center;
+}
+
+.title {
+	color: $black-color;
+	font-family: $font-Montserrat;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.subtitle {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	color: $grey-color;
+	font-family: $font-Montserrat;
+	margin-top: 10px;
+}
+
 /* === Grid === */
 
 .row:before,
@@ -68,6 +103,8 @@ $grey-color: #aeaeae;
   text-align: center;
   margin: 0 auto;
 }
+
+
 
 /* === HEADER === */
 header {
@@ -178,38 +215,10 @@ nav {
 }
 
 /* === ABOUT US === */
-.container {
-	max-width: 1100px;
-	width: 100%;
-	margin: auto;
-}
-
-.title {
-	color: $black-color;
-	font-family: $font-Montserrat;
-	font-size: 30px;
-	font-weight: bold;
-	line-height: 30px;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 0;
-}
-
-.subtitle {
-	font-size: 14px;
-	font-weight: bold;
-	line-height: 14px;
-	text-transform: uppercase;
-	text-align: center;
-	color: $grey-color;
-	font-family: $font-Montserrat;
-	margin-top: 10px;
-}
 
 .about-us {
 	p {
 		width: 634px;
-		height: 139px;
 		color: #242424;
 		font-family: $font-Montserrat;
 		font-size: 14px;
@@ -233,13 +242,6 @@ nav {
 }
 
 /* === SERVICES === */
-.main-container {
-	width: 100%;
-	background-color: $black-color;
-	height: 416px;
-	text-align: center;
-}
-
 .white-title {
 	color: $white-color;
 }
@@ -248,13 +250,15 @@ nav {
 	color: $white-color;
 	font-family: $font-Montserrat;
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 18px;
 	text-transform: uppercase;
 }
 
 .description-2 {
-	font-weight: 300;
+	font-weight: 400;
+	font-family: $font-Montserrat;
+	font-size: 12px;
 	line-height: 21px;
 	color: #7e7e7e;
 }
@@ -375,7 +379,6 @@ nav {
 
 .team {
 	background-color: $white-color;
-	font-family: $font-Montserrat;
 	width: 32%;
 }
 
@@ -388,7 +391,14 @@ nav {
 		margin: 40px 0;
 	}
 	h3 {
-		font-weight: bold;
+		font-size: 21px;
+		line-height: 21px;
+		font-family: $font-Montserrat;
+	}
+	h4 {
+		font-weight: 300;
+		line-height: 24px;
+		font-family: $font-Montserrat;
 	}
 	.icons {
 		margin: 30px 0 40px 0;
@@ -433,10 +443,10 @@ nav {
 		font-weight: 700;
 		margin-bottom: 10px;
 	}
-	p {
+	h4 {
 		font-family: $font-Montserrat;
 		font-size: 18px;
-		font-weight: 700;
+		font-weight: 400;
 		margin-top: 10px;
 	}
 	.quotes {
@@ -470,20 +480,20 @@ nav {
 }
 
 .price-col {
-	h1 {
+	h3 {
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 21px;
 		text-transform: uppercase;
 	}
-	h2 {
+	h4 {
 		font-size: 30px;
 		font-weight: 700;
 		line-height: 21px;
 		text-transform: uppercase;
 		margin-bottom: 0;
 	}
-	h3 {
+	h5 {
 		font-size: 10px;
 		font-weight: 400;
 		line-height: 25px;
@@ -521,10 +531,10 @@ nav {
 }
 
 .premium-features {
-	h4 {
+	h3 {
 		font-family: $font-Montserrat;
-		font-size: 20px;
-		font-weight: bold;
+		font-size: 21px;
+		font-weight: 700;
 		text-align: left;
 		margin-top: 4px;
 		margin-bottom: 5px;
@@ -556,12 +566,33 @@ nav {
 
 .facts-section {
 	margin-top: 40px;
+	font-family: $font-Montserrat;
 }
 
 .facts-section {
+	h3 {
+		font-size: 48px;
+		font-weight: 700;
+		line-hight: 28px;
+		color: $yellow-color;
+		margin: 0;
+	}
+	h4 {
+		color: #7e7e7e;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 25px;
+		margin: 0;
+	}
+	h5 {
+		color: $white-color;
+		font-size: 18px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin: 0;
+	}
 	p {
 		color: #7e7e7e;
-		font-family: $font-Montserrat;
 		font-size: 12px;
 		font-weight: 300;
 		line-height: 21px;
@@ -670,6 +701,7 @@ nav {
 		background-color: #ededed;
 		text-transform: uppercase;
 		text-align: left;
+		outline: none;
 	}
 	.name-col {
 		width: 48%;
@@ -760,7 +792,7 @@ nav {
 	padding-right: 15px;
 }
 .footer-main {
-	.fab {
+	.fab, .fas {
 		border: none;
 		border-radius: 50%;
 		font-size: 14px;
@@ -806,6 +838,7 @@ nav {
 		text-transform: uppercase;
 		text-align: center;
 		padding-top: 30px;
+		outline: none;
 	}
 	.sub-btn {
 		margin-top: 30px;
@@ -854,6 +887,7 @@ nav {
 
 	.navbar {
 		height: 650px;
+		padding: 0;
 	}
 
 	.logo {
@@ -873,6 +907,7 @@ nav {
 		ul {
 		    margin: 0;
 		    padding: 0;
+		    float: none;
 		   
 		}
 
@@ -904,7 +939,10 @@ nav {
 
 	.jumbotron {
 		h1 {
-			font-size: 40px;
+			font-size: 30px;
+		}
+		h2 {
+			font-size: 20px;
 		}
 	}
 	
@@ -913,6 +951,13 @@ nav {
 		margin-top: -20px;
 	}
 
+/* === ABOUT US === */
+.about-us {
+	p {
+		width: 100%;
+		padding: 0 20px;
+	}
+}
 /* === SERVICES === */
 .main-container {
 	width: 100%;
@@ -930,7 +975,25 @@ nav {
 	border-right: none ;
 }
 
+/* === OUR PROJECTS === */
+.list {
+	width: 100%;
+	border: none;
+}
 
+.list {
+	li {
+	display: block;
+	border-bottom: 2px solid $yellow-color;
+	border-right: none;
+	}
+}
+
+.gallery {
+	.layer {
+		display: none;
+	}
+}
 /* === PRICE === */
 .price-col {
 	margin: 10px 0;
@@ -939,6 +1002,12 @@ nav {
 /* === PREMIUM === */
 .premium {
 	background-color: $white-color;
+}
+
+.premium-section {
+	.box-img {
+		width: 100%;
+	}
 }
 
 /* === TELL ABOUT US ===*/
@@ -957,7 +1026,10 @@ nav {
 	background-color: #ededed;
 	height: 100%;
 }
-
+.form {
+	padding-left: 10px;
+	width: 100%;
+}
 .form {
 	.name-col, {
 		width: 100%;
@@ -995,18 +1067,24 @@ nav {
 	}
 	p {
 		font-size: 15px;
-		text-align: left;
+		text-align: center;
 		padding: 10px;
 	}
 	.copyrights {
 		padding-top: 0;
-		padding-left: 300px;
+		padding-left: 0;
 	}
 }
 
 .footer-text {
 	background-color: black;
+}
 
+.footer-text {
+	p {
+		padding: 20px;
+		text-align: justify;
+	}
 }
 
 }
@@ -1119,6 +1197,12 @@ nav {
     margin-right: 0;
 }
 
+.gallery {
+	.layer {
+		display: none;
+	}
+}
+
 /* === OUR TEAM === */
 .team1 {
     margin-right: 0;
@@ -1180,18 +1264,18 @@ nav {
 }
 
 .footer-text {
-	padding-right: 0;
+	padding: 20px;
 }
 
 .footer-main {
 	p {
 		font-size: 20px;
-		text-align: justify;
+		text-align: center;
 		padding: 10px;
 	}
 	.copyrights {
 		padding-top: 0;
-		padding-left: 450px;
+		padding-left: 0;
 	}
 }
 
